@@ -1,10 +1,8 @@
-import math as m
-#m is a alias name of math library
-p=float(input("Enter Principal Amount : "))
-r=float(input("Enter Rate of Interest : "))
-t=int(input("Enter How many years : "))
-x=(1+(r/100))
-amt=p*m.pow(x,t)
-ci=amt-p
-print("Amount : ",amt)
-print("Compount Interest : ",ci)
+def square(n): #n is a local variable
+    return n*n #or n**2
+
+def cube(n): #n s a local variable 
+    return n**3 #**Exponent operator
+
+def area_circle(r,pi=3.14) : #default argument
+    return pi*r*r
