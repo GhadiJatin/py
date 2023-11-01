@@ -1,0 +1,6 @@
+f=open('test.txt')
+text=f.readlines()
+print(text)
+print("a",end=",")
+print("b")
+print("c/nd")
